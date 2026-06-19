@@ -1,0 +1,52 @@
+/* Neon Orange — #FF5F1F
+Cyber Orange — #FF6B00
+Solar Flare — #FF4500
+Electric Amber — #FFB300
+Inferno — #FF3C00 */
+
+.desc{
+    width: 80%;
+    color: #FF5F1F;
+    margin-top: 0px;
+    padding: 10px 20px;
+    border-radius: 10px 10px 20px 20px;
+}
+
+.signinoptions{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.google{
+    background-color: rgb(255, 255, 255);
+    border: 3px solid;
+    width: max-content;
+    padding: 10px 65px 10px 65px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+}
+
+.github{
+    background-color: black;
+    color: white;
+    border: none;
+    width: max-content;
+    padding: 10px 65px 10px 65px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+}

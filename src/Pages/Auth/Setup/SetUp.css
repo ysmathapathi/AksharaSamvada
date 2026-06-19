@@ -1,0 +1,139 @@
+/* Neon Orange — #FF5F1F
+Cyber Orange — #FF6B00
+Solar Flare — #FF4500
+Electric Amber — #FFB300
+Inferno — #FF3C00 */
+
+.setup {
+    background-color: #FF4500;
+    padding: 10px;
+    width: max-content;
+    border-radius: 20px;
+}
+
+.setup .welcomeMsg {
+    background-color: white;
+    width: max-content;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+}
+
+.setup .emailandphoto{
+    width: 100%;
+    display: flex;
+
+}
+
+.photo{
+    width: 100px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.email{
+    margin: 0 10px;
+    background-color: white;
+    height: max-content;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.asid{
+    margin: 10px 10px;
+    background-color: white;
+    height: max-content;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.creds{
+    text-align: left;
+}
+
+.createpassword {
+  width: 400px;
+  padding: 30px;
+  background: rgba(18, 18, 18, 0.95);
+  border: 1px solid rgba(255, 107, 0, 0.15);
+  border-radius: 32px;
+  backdrop-filter: blur(20px);
+  box-shadow: 
+    0 20px 50px rgba(0, 0, 0, 0.5),
+    0 0 40px rgba(255, 107, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+
+.createpassword h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0;
+  color: #ffffff;
+}
+
+.createpassword input {
+  width: 100%;
+  padding: 16px;
+  border: none;
+  outline: none;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.04);
+  color: white;
+  font-size: 15px;
+  transition: 0.25s ease;
+  box-sizing: border-box;
+}
+
+.createpassword input::placeholder {
+  color: rgba(255, 255, 255, 0.35);
+}
+
+.createpassword input:focus {
+  background: rgba(255, 255, 255, 0.06);
+  box-shadow: 
+    0 0 0 2px rgba(255, 107, 0, 0.25),
+    0 0 20px rgba(255, 107, 0, 0.15);
+}
+
+.createpassword button {
+  padding: 14px;
+  border: none;
+  border-radius: 18px;
+  background: linear-gradient(
+    135deg,
+    #ff6b00,
+    #cc5500
+  );
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.createpassword button:hover {
+  transform: translateY(-2px);
+  box-shadow: 
+    0 10px 25px rgba(255, 107, 0, 0.25);
+}
+
+.createpassword button:active {
+  transform: scale(0.98);
+}
+
+.createpassword hr {
+  border: none;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.08);
+  margin: 10px 0;
+}
+
+.password-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
